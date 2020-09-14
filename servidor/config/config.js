@@ -27,11 +27,11 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'dev'
 
 let ulrDB;
 
-process.env.MONG_URI = 'mongodb+srv://Coloorado:matias150396@cluster0.wt9hp.mongodb.net/cursoit';
+process.env.MONG_URI = '';
 
 
 if(process.env.NODE_ENV === 'dev'){
-    urlDB ="mongodb+srv://Coloorado:matias150396@cluster0.wt9hp.mongodb.net/cursoit"
+    urlDB =""
 }else{
     urlDB= process.env.MONGO_URI;
 }
